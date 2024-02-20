@@ -1,0 +1,266 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.headerContainer{
+    background-color: rgba(0, 0, 0, 50%);
+    width: 100%;
+    height: 100vh;
+    background-image: url(media/steamuserimages-a.akamaihd.gif);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.navBarContainer{
+    width: 100%;
+    height: 20%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;}
+
+.iconNavbar{
+    height: 100%;
+    width: 10%;
+    background-image: url(media/icon.png);
+    background-size: cover;
+    margin-left: 8vw;
+}
+
+.navList{
+    color: #9CFC4F;
+    font-size: 1.7vw;
+    display: flex;
+    flex-direction: row;
+    width: 60%;
+    height: 100%;
+    list-style-type: none;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.textoHeader{
+    font-size: 3.6vh;
+    color: white;
+    flex-direction: column;
+    text-align: left;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 80%;
+    width: 35%;
+}
+
+.botonHeader{
+    background-color: grey;
+    height: 10%;
+    width: 10%;
+    border: none;
+}
+
+
+.aboutMeContainer{
+    height: 100vh;
+    width: 100%;
+    background-color: #965FD4;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.background1{
+    background-image: url(media/icon.png);
+    width: 50%;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: 150vh;  
+    display: flex;
+    background-position: center;
+    background-color: rgba(0, 0, 0, 50%);
+}
+
+.fotoPersonal{
+    background-image: url(media/VAPORGRAM-GIF-1706060886416-unscreen.gif);
+    width: 100%;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.containerDerecho{
+    background-image: url(media/icon2.png);
+    width: 50%;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: 150vh;
+    display: flex;
+    
+    background-position: center;
+}
+
+.textoContainer{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    background-color: rgba(0, 0, 0, 50%);
+  
+}
+
+.texto{
+   
+    color: white;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.textItemD{
+    text-align: right;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    width: 50%;
+    height: 25%;
+}
+
+.textItemI{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: left;
+    width: 100%;
+    height: 25%;
+}
+
+.separador{
+    width: 50%;
+    height: 100%;
+ 
+}
+
+span{
+    font-size: 10vh;
+    color: #9CFC4F;
+}
+
+.button{
+    height: 5%;
+    width: 10vw;
+    border-radius: 5%;
+    background-color: #9CFC4F;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 16px;
+}
+
+
+.proyectosContainer{
+    height: 200vh;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); 
+    grid-template-rows: repeat(4, auto); 
+}
+
+.proyecto{
+    background-color: cadetblue;
+    border: 1px solid black;
+}
+
+footer{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    width: 100%;
+    height: 40vh;
+    background-color: #965FD4;
+    box-shadow: inset 0 0 100px 38px rgba(0, 0, 0, 150%);
+}
+
+
+.gif4{
+    background-image: url(media/1570de5f2e50d604d506f7c4509629b3.gif);
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+}
+.gif2{
+    background-image: url(media/973c39733e8393b836cf6b445afcf7f4.gif);
+    height: 100%;
+    width: 100%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    
+}
+
+.gif1{
+    background-image: url(media/dcf5a2t-a143285d-db85-4b8a-bfef-6cae76df284d.gif);
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+}
+
+.gif5{
+    background-image: url(media/tumblr_na9e4axOw91txar8to1_500.gif);
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+}
+
+.gif3{
+    background-image: url(media/2370851_d47ea.gif);
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.contactosList{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 1.7vw;
+    list-style: none;
+    font-weight: bold; 
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    
+}
+
+.mail{
+    display: flex;
+    flex-direction: row;
+
+}
+
+.icon1{
+    background-image: url(media/printer.png);
+    background-color: cover;
+    width: 10%;
+    height: 100%;
+}
