@@ -4,6 +4,19 @@
     box-sizing: border-box;
 }
 
+@font-face {
+    font-family: 'Nectolus';
+    src: url('fonts/Nectolus-Regular.woff') format('woff')   
+}
+
+
+.titulo{
+    font-size: 20vh;
+    color: #9CFC4F;
+    font-family: 'Nectolus';
+}
+
+
 body{
     width: 100%;
     height: 100%;
@@ -11,15 +24,23 @@ body{
     flex-direction: column;
     align-items: center;
     justify-content: center;
+ 
 }
 
+.paralaje {
+    background-image: url('media/midjourney2-transformed.png');
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+}
 
 .headerContainer{
-    background-color: rgba(0, 0, 0, 50%);
     width: 100%;
     height: 100vh;
-    background-image: url(media/steamuserimages-a.akamaihd.gif);
+    background-repeat: no-repeat;   
+    background-position: center;
     display: flex;
+    background-size: cover;
     flex-direction: column;
     align-items: center;
 }
@@ -29,7 +50,8 @@ body{
     height: 20%;
     display: flex;
     flex-direction: row;
-    justify-content: space-between;}
+    justify-content: space-between;
+}
 
 .iconNavbar{
     height: 100%;
@@ -37,11 +59,13 @@ body{
     background-image: url(media/icon.png);
     background-size: cover;
     margin-left: 8vw;
+    display: flex;
+    background-position: center;
 }
 
 .navList{
     color: #9CFC4F;
-    font-size: 1.7vw;
+    font-size: 1.55vw;
     display: flex;
     flex-direction: row;
     width: 60%;
@@ -52,50 +76,65 @@ body{
 }
 
 .textoHeader{
-    font-size: 3.6vh;
-    color: white;
-    flex-direction: column;
-    text-align: left;
     display: flex;
+    flex-direction: row;
     align-items: center;
     justify-content: center;
-    height: 80%;
-    width: 35%;
+    height: 100%;
+    width: 100%;
+   
+   
 }
 
-.botonHeader{
-    background-color: grey;
-    height: 10%;
-    width: 10%;
-    border: none;
+.contenedorPresentacion{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    width: 80%;
+    height: 80%;
 }
+
+.presentacion{
+    font-size: 3.6vh;
+    color: white;
+    text-align: left;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    height: 100%;
+    width: 50%;
+    border-radius: 1vh;
+}
+
 
 
 .aboutMeContainer{
     height: 100vh;
     width: 100%;
-    background-color: #965FD4;
+    background-position: center; 
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: center;
+    background-color: rgba(0, 0, 0, 0.5);
 }
+
+
 
 .background1{
     background-image: url(media/icon.png);
     width: 50%;
-    height: 100vh;
+    height: 100%;
     background-repeat: no-repeat;
     background-size: 150vh;  
     display: flex;
+    background-color: rgba(0, 0, 0, 0.5);
     background-position: center;
-    background-color: rgba(0, 0, 0, 50%);
 }
 
 .fotoPersonal{
     background-image: url(media/VAPORGRAM-GIF-1706060886416-unscreen.gif);
     width: 100%;
-    height: 100vh;
+    height: 100%;
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -104,50 +143,19 @@ body{
 .containerDerecho{
     background-image: url(media/icon2.png);
     width: 50%;
-    height: 100vh;
+    height: 100%;
     background-repeat: no-repeat;
     background-size: 150vh;
     display: flex;
-    
     background-position: center;
-}
-
-.textoContainer{
-    width: 100%;
-    height: 100vh;
-    display: flex;
+    background-color: rgba(0, 0, 0, 0.5);
     flex-direction: column;
-    align-items: center;
-    justify-content: space-around;
-    background-color: rgba(0, 0, 0, 50%);
-  
 }
 
-.texto{
-   
+.textoAboutMe{
     color: white;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-}
-
-.textItemD{
-    text-align: right;
-    display: flex;
-    align-items: flex-end;
-    justify-content: center;
-    width: 50%;
-    height: 25%;
-}
-
-.textItemI{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-align: left;
-    width: 100%;
-    height: 25%;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 3.6vh;
 }
 
 .separador{
@@ -156,9 +164,14 @@ body{
  
 }
 
-span{
-    font-size: 10vh;
-    color: #9CFC4F;
+.iconos{
+    width: 50%;
+    height: 50%;
+}
+
+.iconos img{
+    width: 10vh;
+    height: 10vh;
 }
 
 .button{
@@ -187,54 +200,17 @@ span{
 }
 
 footer{
-    display: grid;
-    grid-template-columns: repeat(5,1fr);
-    width: 100%;
-    height: 40vh;
-    background-color: #965FD4;
-    box-shadow: inset 0 0 100px 38px rgba(0, 0, 0, 150%);
-}
-
-
-.gif4{
-    background-image: url(media/1570de5f2e50d604d506f7c4509629b3.gif);
-    height: 100%;
-    width: 100%;
-    background-size: cover;
-}
-.gif2{
-    background-image: url(media/973c39733e8393b836cf6b445afcf7f4.gif);
-    height: 100%;
-    width: 100%;
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center;
-    
-}
-
-.gif1{
-    background-image: url(media/dcf5a2t-a143285d-db85-4b8a-bfef-6cae76df284d.gif);
-    height: 100%;
-    width: 100%;
-    background-size: cover;
-}
-
-.gif5{
-    background-image: url(media/tumblr_na9e4axOw91txar8to1_500.gif);
-    height: 100%;
-    width: 100%;
-    background-size: cover;
-}
-
-.gif3{
-    background-image: url(media/2370851_d47ea.gif);
-    height: 100%;
-    width: 100%;
-    background-size: cover;
-    background-position: center;
     display: flex;
+    flex-direction: row;
     justify-content: center;
     align-items: center;
+    width: 100%;
+    height: 40vh;
+    background-image: url(media/midjourney3-transformed.png);
+    background-size: cover;
+   
+    background-position: bottom;
+    box-shadow: inset 0 0 100px 38px rgba(0, 0, 0, 150%);
 }
 
 
@@ -252,15 +228,9 @@ footer{
     
 }
 
-.mail{
-    display: flex;
-    flex-direction: row;
-
-}
-
 .icon1{
     background-image: url(media/printer.png);
-    background-color: cover;
+    background-size: cover;
     width: 10%;
     height: 100%;
 }
