@@ -1,0 +1,69 @@
+@media only screen and (max-width: 1080px) {
+    .titulo{
+        font-size: 5.3vh;
+        text-align: center;
+    }
+    .contenedorPresentacion{
+        width: 100%;
+        flex-direction: column;
+        height: 70vh;
+    }
+    .navBarContainer{
+        height:30vh;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+    }
+    .headerContainer{
+        align-items: center;
+        justify-content: center;
+        padding: 2.5vh;
+    }
+    .iconNavbar{
+        height: 50%;
+        width: 40%;
+        margin-left: 0%;
+    }
+    .navList{
+        font-size:6vw;
+        width: 100%;
+        flex-direction: column;
+        height: 50%;
+    }
+    .presentacion{
+        width: 20%;
+        display: flex;
+        align-items: flex-start;
+        justify-content: center;
+        padding: 10vh;
+    }
+
+    .aboutMeContainer{
+        flex-direction: column;
+    }
+
+    .background1{
+        background-size: 60vh;
+        width: 100%;
+    }
+    .containerDerecho{
+        width: 100%;
+    }
+    .textoAboutMe{
+        font-size: 3vw;
+    }
+    .iconos img{
+        width: 5vh;
+        height: 5vh;
+    }
+
+    .proyectosContainer{
+        height: 100vh;
+    }
+
+    .cyberpunk-console{
+        height: 10vh;
+        font-size: 2.2px;
+    }
+}
+
